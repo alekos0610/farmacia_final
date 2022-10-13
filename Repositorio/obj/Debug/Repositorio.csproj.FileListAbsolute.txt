@@ -1,0 +1,17 @@
+C:\Users\sandr\OneDrive\Escritorio\dev\Repositorio\bin\Debug\Repositorio.dll.config
+C:\Users\sandr\OneDrive\Escritorio\dev\Repositorio\bin\Debug\Repositorio.dll
+C:\Users\sandr\OneDrive\Escritorio\dev\Repositorio\bin\Debug\Repositorio.pdb
+C:\Users\sandr\OneDrive\Escritorio\dev\Repositorio\bin\Debug\entidades.dll
+C:\Users\sandr\OneDrive\Escritorio\dev\Repositorio\bin\Debug\EntityFramework.dll
+C:\Users\sandr\OneDrive\Escritorio\dev\Repositorio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sandr\OneDrive\Escritorio\dev\Repositorio\bin\Debug\Modelo.dll
+C:\Users\sandr\OneDrive\Escritorio\dev\Repositorio\bin\Debug\entidades.pdb
+C:\Users\sandr\OneDrive\Escritorio\dev\Repositorio\bin\Debug\Modelo.pdb
+C:\Users\sandr\OneDrive\Escritorio\dev\Repositorio\bin\Debug\Modelo.dll.config
+C:\Users\sandr\OneDrive\Escritorio\dev\Repositorio\bin\Debug\EntityFramework.xml
+C:\Users\sandr\OneDrive\Escritorio\dev\Repositorio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sandr\OneDrive\Escritorio\dev\Repositorio\obj\Debug\Repositorio.csproj.AssemblyReference.cache
+C:\Users\sandr\OneDrive\Escritorio\dev\Repositorio\obj\Debug\Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\sandr\OneDrive\Escritorio\dev\Repositorio\obj\Debug\Repositorio.csproj.CopyComplete
+C:\Users\sandr\OneDrive\Escritorio\dev\Repositorio\obj\Debug\Repositorio.dll
+C:\Users\sandr\OneDrive\Escritorio\dev\Repositorio\obj\Debug\Repositorio.pdb
