@@ -150,7 +150,7 @@
       <Name>Negocio</Name>
     </ProjectReference>
     <ProjectReference Include="..\Repositorio\Repositorio.csproj">
-      <Project>{cdd661f9-87b9-4bad-87b1-bdd5200e70cc}</Project>
+      <Project>{f56f3794-64ca-4e99-8104-66f2f733d8fe}</Project>
       <Name>Repositorio</Name>
     </ProjectReference>
   </ItemGroup>

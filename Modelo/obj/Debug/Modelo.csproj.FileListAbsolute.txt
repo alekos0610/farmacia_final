@@ -10,3 +10,15 @@ C:\Users\sandr\OneDrive\Escritorio\dev\Modelo\obj\Debug\Modelo.csproj.CoreCompil
 C:\Users\sandr\OneDrive\Escritorio\dev\Modelo\obj\Debug\Modelo.csproj.CopyComplete
 C:\Users\sandr\OneDrive\Escritorio\dev\Modelo\obj\Debug\Modelo.dll
 C:\Users\sandr\OneDrive\Escritorio\dev\Modelo\obj\Debug\Modelo.pdb
+C:\Users\sandr\source\repos\farmacia_final\Modelo\bin\Debug\Modelo.dll.config
+C:\Users\sandr\source\repos\farmacia_final\Modelo\bin\Debug\Modelo.dll
+C:\Users\sandr\source\repos\farmacia_final\Modelo\bin\Debug\Modelo.pdb
+C:\Users\sandr\source\repos\farmacia_final\Modelo\bin\Debug\EntityFramework.dll
+C:\Users\sandr\source\repos\farmacia_final\Modelo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sandr\source\repos\farmacia_final\Modelo\bin\Debug\EntityFramework.xml
+C:\Users\sandr\source\repos\farmacia_final\Modelo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sandr\source\repos\farmacia_final\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\sandr\source\repos\farmacia_final\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\sandr\source\repos\farmacia_final\Modelo\obj\Debug\Modelo.csproj.CopyComplete
+C:\Users\sandr\source\repos\farmacia_final\Modelo\obj\Debug\Modelo.dll
+C:\Users\sandr\source\repos\farmacia_final\Modelo\obj\Debug\Modelo.pdb
