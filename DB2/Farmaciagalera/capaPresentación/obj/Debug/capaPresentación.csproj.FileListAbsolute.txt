@@ -1,0 +1,10 @@
+C:\Users\sandr\OneDrive\Escritorio\dev\farmatotal\Farmaciagalera\capaPresentación\bin\Debug\capaPresentación.exe.config
+C:\Users\sandr\OneDrive\Escritorio\dev\farmatotal\Farmaciagalera\capaPresentación\bin\Debug\capaPresentación.exe
+C:\Users\sandr\OneDrive\Escritorio\dev\farmatotal\Farmaciagalera\capaPresentación\bin\Debug\capaPresentación.pdb
+C:\Users\sandr\OneDrive\Escritorio\dev\farmatotal\Farmaciagalera\capaPresentación\obj\Debug\capaPresentación.csproj.AssemblyReference.cache
+C:\Users\sandr\OneDrive\Escritorio\dev\farmatotal\Farmaciagalera\capaPresentación\obj\Debug\capaPresentación.csproj.SuggestedBindingRedirects.cache
+C:\Users\sandr\OneDrive\Escritorio\dev\farmatotal\Farmaciagalera\capaPresentación\obj\Debug\capaPresentación.Properties.Resources.resources
+C:\Users\sandr\OneDrive\Escritorio\dev\farmatotal\Farmaciagalera\capaPresentación\obj\Debug\capaPresentación.csproj.GenerateResource.cache
+C:\Users\sandr\OneDrive\Escritorio\dev\farmatotal\Farmaciagalera\capaPresentación\obj\Debug\capaPresentación.csproj.CoreCompileInputs.cache
+C:\Users\sandr\OneDrive\Escritorio\dev\farmatotal\Farmaciagalera\capaPresentación\obj\Debug\capaPresentación.exe
+C:\Users\sandr\OneDrive\Escritorio\dev\farmatotal\Farmaciagalera\capaPresentación\obj\Debug\capaPresentación.pdb
