@@ -49,20 +49,14 @@ namespace Farmacia
             this.lblVencimiento = new System.Windows.Forms.Label();
             this.lblCant = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.btnGuardar = new System.Windows.Forms.Button();
-            this.btnNuevo = new System.Windows.Forms.Button();
-            this.btnEliminar = new System.Windows.Forms.Button();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.dtpFechaInvetario = new System.Windows.Forms.DateTimePicker();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnCerrarInventario = new System.Windows.Forms.Button();
             this.btnLimpiar = new System.Windows.Forms.Button();
+            this.btnGuardar = new System.Windows.Forms.Button();
             this.gpbInfoPto.SuspendLayout();
             this.gpbStock.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -96,6 +90,7 @@ namespace Farmacia
             this.cmbEstante.Name = "cmbEstante";
             this.cmbEstante.Size = new System.Drawing.Size(249, 24);
             this.cmbEstante.TabIndex = 10;
+            this.cmbEstante.SelectedIndexChanged += new System.EventHandler(this.CmbEstante_SelectedIndexChanged);
             // 
             // cmbPresentacion
             // 
@@ -104,6 +99,7 @@ namespace Farmacia
             this.cmbPresentacion.Name = "cmbPresentacion";
             this.cmbPresentacion.Size = new System.Drawing.Size(249, 24);
             this.cmbPresentacion.TabIndex = 9;
+            this.cmbPresentacion.SelectedIndexChanged += new System.EventHandler(this.CmbPresentacion_SelectedIndexChanged);
             // 
             // lblPresentacion
             // 
@@ -257,65 +253,12 @@ namespace Farmacia
             // 
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(602, 199);
+            this.pictureBox2.Location = new System.Drawing.Point(583, 293);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(41, 35);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
-            // 
-            // btnGuardar
-            // 
-            this.btnGuardar.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnGuardar.Location = new System.Drawing.Point(682, 199);
-            this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(75, 34);
-            this.btnGuardar.TabIndex = 1;
-            this.btnGuardar.Text = "Guardar";
-            this.btnGuardar.UseVisualStyleBackColor = false;           
-            // 
-            // btnNuevo
-            // 
-            this.btnNuevo.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnNuevo.Location = new System.Drawing.Point(682, 120);
-            this.btnNuevo.Name = "btnNuevo";
-            this.btnNuevo.Size = new System.Drawing.Size(75, 36);
-            this.btnNuevo.TabIndex = 2;
-            this.btnNuevo.Text = "Nuevo";
-            this.btnNuevo.UseVisualStyleBackColor = false;
-            // 
-            // btnEliminar
-            // 
-            this.btnEliminar.BackColor = System.Drawing.Color.Red;
-            this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.Location = new System.Drawing.Point(682, 274);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(75, 38);
-            this.btnEliminar.TabIndex = 3;
-            this.btnEliminar.Text = "Eliminar";
-            this.btnEliminar.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(602, 120);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(41, 36);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 10;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(602, 274);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(41, 37);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 11;
-            this.pictureBox4.TabStop = false;
             // 
             // dtpFechaInvetario
             // 
@@ -365,22 +308,28 @@ namespace Farmacia
             this.btnLimpiar.UseVisualStyleBackColor = false;
             this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
+            // btnGuardar
+            // 
+            this.btnGuardar.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnGuardar.Location = new System.Drawing.Point(656, 294);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.Size = new System.Drawing.Size(75, 34);
+            this.btnGuardar.TabIndex = 1;
+            this.btnGuardar.Text = "Guardar";
+            this.btnGuardar.UseVisualStyleBackColor = false;
+            // 
             // FrmInventario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnCerrarInventario);
             this.Controls.Add(this.dtpFechaInvetario);
-            this.Controls.Add(this.btnNuevo);
             this.Controls.Add(this.btnGuardar);
-            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.gpbStock);
-            this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.lblFechaInv);
             this.Controls.Add(this.lblInventario);
             this.Controls.Add(this.gpbInfoPto);
@@ -394,8 +343,6 @@ namespace Farmacia
             this.gpbStock.ResumeLayout(false);
             this.gpbStock.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -404,8 +351,6 @@ namespace Farmacia
 
         #endregion
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.GroupBox gpbStock;
         private System.Windows.Forms.GroupBox gpbInfoPto;
         private System.Windows.Forms.TextBox txtCtracion;
@@ -422,14 +367,12 @@ namespace Farmacia
         private System.Windows.Forms.Label lblFechaInv;   
         private System.Windows.Forms.Label lblVencimiento;
         private System.Windows.Forms.Label lblCant;
-        private System.Windows.Forms.Button btnGuardar;
-        private System.Windows.Forms.Button btnNuevo;
-        private System.Windows.Forms.Button btnEliminar;        
         private System.Windows.Forms.DateTimePicker dtpFechaInvetario;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ComboBox cmbPresentacion;
         private System.Windows.Forms.Button btnCerrarInventario;
         private System.Windows.Forms.ComboBox cmbEstante;
         private System.Windows.Forms.Button btnLimpiar;
+        private System.Windows.Forms.Button btnGuardar;
     }
 }

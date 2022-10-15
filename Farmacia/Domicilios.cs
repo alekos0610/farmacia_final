@@ -207,5 +207,6 @@ namespace Farmacia
             txtNumId.Clear();
             txtTel.Clear();
         }
+                
     }
 }

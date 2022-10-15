@@ -36,15 +36,36 @@ namespace Farmacia
 
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
-            cmbEstante.Focus();            
+            cmbEstante.Focus();
+            cmbEstante.DataSource = null;
+            cmbEstante.Items.Clear();
+            cmbPresentacion.DataSource = null;
+            cmbPresentacion.Items.Clear();
             txtProducto.Clear();
             txtCodigo.Clear();
             txtCtracion.Clear();            
             txtCant.Clear();
             txtVenc.Clear();
+            
+        }
+      
+        private void CmbEstante_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cmbEstante.Items.Add("1");
+            cmbEstante.Items.Add("2");
+            cmbEstante.Items.Add("3");
+            cmbEstante.Items.Add("4");
+          
         }
 
-       
+        private void CmbPresentacion_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cmbPresentacion.Items.Add("Grajea");
+            cmbPresentacion.Items.Add("polvo");
+            cmbPresentacion.Items.Add("tableta");
+            cmbPresentacion.Items.Add("Ampolla");
+            cmbPresentacion.Items.Add("Jarabe");
+        }
     }
 }
 
