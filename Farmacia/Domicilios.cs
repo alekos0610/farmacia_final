@@ -8,7 +8,11 @@ namespace Farmacia
 {
     public partial class FrmDomicilios : Form
     {
-      
+        public FrmDomicilios()
+        {
+            InitializeComponent();
+        }
+
         private void FrmDomicilios_Load(object sender, EventArgs e)
         {
             // Se crea lista desplegable para selección de presentación en inventario.
@@ -41,7 +45,11 @@ namespace Farmacia
                 
         private void btnEnviar_Click(object sender, EventArgs e)
         {
-          
+            BorrarMensaje();
+            if (ValidarCampos())
+            {
+                MessageBox.Show("Datos Ingresados correctamente");
+            }
         }
 
         private object ValidarDatos()
