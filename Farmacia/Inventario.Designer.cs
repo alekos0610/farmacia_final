@@ -89,8 +89,7 @@ namespace Farmacia
             this.cmbEstante.Location = new System.Drawing.Point(205, 41);
             this.cmbEstante.Name = "cmbEstante";
             this.cmbEstante.Size = new System.Drawing.Size(249, 24);
-            this.cmbEstante.TabIndex = 10;
-            this.cmbEstante.SelectedIndexChanged += new System.EventHandler(this.CmbEstante_SelectedIndexChanged);
+            this.cmbEstante.TabIndex = 10;            
             // 
             // cmbPresentacion
             // 
@@ -99,7 +98,6 @@ namespace Farmacia
             this.cmbPresentacion.Name = "cmbPresentacion";
             this.cmbPresentacion.Size = new System.Drawing.Size(249, 24);
             this.cmbPresentacion.TabIndex = 9;
-            this.cmbPresentacion.SelectedIndexChanged += new System.EventHandler(this.CmbPresentacion_SelectedIndexChanged);
             // 
             // lblPresentacion
             // 

@@ -14,6 +14,19 @@ namespace Farmacia
 
         private void FrmInventario_Load(object sender, EventArgs e)
         {
+            // Se crea lista desplegable para selección de presentación en inventario.
+            cmbPresentacion.Items.Add("Cápsula");
+            cmbPresentacion.Items.Add("Comprimido");
+            cmbPresentacion.Items.Add("Grajea");
+            cmbPresentacion.Items.Add("Jarabe");
+            cmbPresentacion.Items.Add("Suspensión");
+            cmbPresentacion.Items.Add("Polvo");
+
+            //lista desplegable para estante
+            cmbEstante.Items.Add("1");
+            cmbEstante.Items.Add("2");
+            cmbEstante.Items.Add("3");
+            cmbEstante.Items.Add("4");
 
         }
 
@@ -48,24 +61,7 @@ namespace Farmacia
             txtVenc.Clear();
             
         }
-      
-        private void CmbEstante_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            cmbEstante.Items.Add("1");
-            cmbEstante.Items.Add("2");
-            cmbEstante.Items.Add("3");
-            cmbEstante.Items.Add("4");
-          
-        }
-
-        private void CmbPresentacion_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            cmbPresentacion.Items.Add("Grajea");
-            cmbPresentacion.Items.Add("polvo");
-            cmbPresentacion.Items.Add("tableta");
-            cmbPresentacion.Items.Add("Ampolla");
-            cmbPresentacion.Items.Add("Jarabe");
-        }
+                
     }
 }
 
